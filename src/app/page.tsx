@@ -15,7 +15,7 @@ export default function Home() {
               <div className="flex items-center gap-4">
                 <Button>
                   <Link 
-                    href="/"
+                    href="mailto:ysrael.2009@hotmail.com"
                     className="text-2xl text-[#DDDADC] border px-4 py-2 rounded-full hover:bg-sky-700 transition-all"
                   >
                     Contact

@@ -2,12 +2,12 @@
 
 import React from 'react';
 import Link from 'next/link';
-import { GithubLogo, LinkedinLogo, TwitterLogo } from 'phosphor-react';
+import { GithubLogo, InstagramLogo, LinkedinLogo, TwitterLogo } from 'phosphor-react';
 
 const Header = () => {
   return (
     <header className="flex items-center h-auto w-full bg-[#090A0B]">
-      <div className="container max-w-6xl px-6 m-auto">
+      <div className="container max-w-6xl px-6 m-auto shadow-3xl">
         <nav className="flex justify-between py-6">
           <div className="text-white text-2xl">
             <Link title="israelalves" href="/">
@@ -29,6 +29,11 @@ const Header = () => {
             <li>
               <Link title="twitter" href="https://twitter.com/IsraelAlves182" target="_blank">
                 <TwitterLogo size={24} weight="fill" color="white" />
+              </Link>
+            </li>
+            <li>
+              <Link title="instagram" href="https://www.instagram.com/_israelalves" target="_blank">
+                <InstagramLogo size={24} weight="fill" color="white" />
               </Link>
             </li>
           </ul>
