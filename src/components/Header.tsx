@@ -22,7 +22,7 @@ const Header = () => {
               </Link>
             </li>
             <li>
-              <Link title="linkedin" href="https://www.linkedin.com/in/israel-alves-234749208/" target="_blank">
+              <Link title="linkedin" href="https://www.linkedin.com/in/israel-alves-dev" target="_blank">
                 <LinkedinLogo size={24} weight="fill" color="white" />
               </Link>
             </li>
