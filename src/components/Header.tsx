@@ -11,7 +11,7 @@ const Header = () => {
         <nav className="flex justify-between py-6">
           <div className="text-white text-2xl">
             <Link title="israelalves" href="/">
-              israelalves
+              IsraelAlves
             </Link>
           </div>
 
