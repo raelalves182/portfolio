@@ -1,6 +1,7 @@
 import Header from '@/components/Header';
-import './styles/globlas.css';
 import { Josefin_Sans } from '@next/font/google';
+import { Analytics } from '@vercel/analytics/react';
+import './styles/globlas.css';
 
 const josefin_sans = Josefin_Sans({
   subsets: ["latin"],
@@ -15,14 +16,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-br">
-      {/*
-        <head /> will contain the components returned by the nearest parent
-        head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
-      */}
       <head />
       <body className={`${josefin_sans.variable} font-sans`}>
         <Header />
         {children}
+        <Analytics />
       </body>
     </html>
   )
