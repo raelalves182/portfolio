@@ -1,6 +1,5 @@
 import Header from '@/components/Header';
 import { Josefin_Sans } from '@next/font/google';
-import { Analytics } from '@vercel/analytics/react';
 import './styles/globlas.css';
 
 const josefin_sans = Josefin_Sans({
@@ -20,7 +19,6 @@ export default function RootLayout({
       <body className={`${josefin_sans.variable} font-sans`}>
         <Header />
         {children}
-        <Analytics />
       </body>
     </html>
   )
