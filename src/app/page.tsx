@@ -31,14 +31,14 @@ export default function Home() {
                   </Link>
                 </Button>
 
-                {/* <Button>
+                <Button>
                   <Link
                     href="/projects"
                     className="text-base sm:text-2xl text-[#DDDADC] border px-4 py-2 rounded-full hover:bg-sky-700 transition-all"
                   >
                     Projects
                   </Link>
-                </Button> */}
+                </Button>
               </div>
             </div>
           </div>
