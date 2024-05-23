@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
-import { GithubLogo, InstagramLogo, LinkedinLogo, List, TwitterLogo } from 'phosphor-react';
+import { GithubLogo, InstagramLogo, LinkedinLogo, List, XLogo } from '@phosphor-icons/react';
 
 const Header = () => {
   const [navOpen, setNavOpen] = useState(false);
@@ -33,19 +33,19 @@ const Header = () => {
               </li>
               <li>
                 <Link className="py-2 px-3 flex items-center text-white text-xs uppercase hover:opacity-75" title="linkedin" href="https://www.linkedin.com/in/israel-alves-dev" target="_blank">
-                  <LinkedinLogo size={24} weight="fill" color="white" />
+                  <LinkedinLogo size={24} color="white" />
                   <span className="ml-2 sm:hidden">Linkedin</span>
                 </Link>
               </li>
               <li>
                 <Link className="py-2 px-3 flex items-center text-white text-xs uppercase hover:opacity-75" title="twitter" href="https://twitter.com/IsraelAlves182" target="_blank">
-                  <TwitterLogo size={24} weight="fill" color="white" />
+                  <XLogo size={24} color="white" />
                   <span className="ml-2 sm:hidden">Twitter</span>
                 </Link>
               </li>
               <li>
                 <Link className="py-2 px-3 flex items-center text-white text-xs uppercase hover:opacity-75" title="instagram" href="https://www.instagram.com/_israelalves" target="_blank">
-                  <InstagramLogo size={24} weight="fill" color="white" />
+                  <InstagramLogo size={24} color="white" />
                   <span className="ml-2 sm:hidden">Instagram</span>
                 </Link>
               </li>

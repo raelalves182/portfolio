@@ -10,7 +10,7 @@ export default function Home() {
             <div className="max-w-5xl m-auto p-6 sm:p-16 rounded-[32px] bg-black bg-opacity-75">
               <h1 className="text-4xl text-[#DDDADC] font-bold sm:text-6xl">Hi, I&apos;m Israel Alves.</h1>
 
-              <p className="text-base sm:text-2xl text-[#DDDADC] my-4 sm:my-8">Dev In Training | Front-end Developer</p>
+              <p className="text-base sm:text-2xl text-[#DDDADC] my-4 sm:my-8">Front-end Developer</p>
 
               <div className="flex items-center gap-4">
                 <Button>
@@ -28,15 +28,6 @@ export default function Home() {
                     className="text-base sm:text-2xl text-[#DDDADC] border px-4 py-2 rounded-full hover:bg-sky-700 transition-all"
                   >
                     About
-                  </Link>
-                </Button>
-
-                <Button>
-                  <Link
-                    href="/projects"
-                    className="text-base sm:text-2xl text-[#DDDADC] border px-4 py-2 rounded-full hover:bg-sky-700 transition-all"
-                  >
-                    Projects
                   </Link>
                 </Button>
               </div>
