@@ -37,12 +37,12 @@ const Header = () => {
                   <span className="ml-2 sm:hidden">Linkedin</span>
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link className="py-2 px-3 flex items-center text-white text-xs uppercase hover:opacity-75" title="twitter" href="https://twitter.com/IsraelAlves182" target="_blank">
                   <XLogo size={24} color="white" />
                   <span className="ml-2 sm:hidden">Twitter</span>
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link className="py-2 px-3 flex items-center text-white text-xs uppercase hover:opacity-75" title="instagram" href="https://www.instagram.com/_israelalves" target="_blank">
                   <InstagramLogo size={24} color="white" />
