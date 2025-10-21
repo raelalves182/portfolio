@@ -1,5 +1,5 @@
 import Header from '@/components/Header';
-import { Josefin_Sans } from '@next/font/google';
+import { Josefin_Sans } from 'next/font/google';
 import './styles/globlas.css';
 
 const josefin_sans = Josefin_Sans({
@@ -14,9 +14,9 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="pt-br">
+    <html lang="pt-br" className={`${josefin_sans} font-sans`}>
       <head />
-      <body className={`${josefin_sans.variable} font-sans`}>
+      <body>
         <Header />
         {children}
       </body>
