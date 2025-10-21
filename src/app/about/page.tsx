@@ -5,10 +5,10 @@ function about() {
   return (
     <section className="bg-hero-pattern bg-no-repeat bg-cover bg-center h-screen">
       <div className="container max-w-6xl p-6 m-auto h-full flex justify-center">
-        <div className="flex items-center flex-wrap md:flex-nowrap gap-6 bg-black bg-opacity-75 m-auto rounded">
+        <div className="flex items-center flex-wrap md:flex-nowrap gap-6 bg-black bg-opacity-75 m-auto rounded-sm">
           <div>
             <Image
-              className="rounded grayscale"
+              className="rounded-sm grayscale"
               src="/my-image.jpg"
               alt="my-image"
               width={500}

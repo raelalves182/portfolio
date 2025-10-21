@@ -27,7 +27,7 @@ export default async function Users() {
             {repos.map((el: { id: Key | undefined; homepage: string, topics: string[] }) => (
               <CarouselItem key={el.id} className="pt-1 md:basis-1/2">
                 <div className="p-1">
-                  <Card className="bg-gradient-to-r from-cyan-500 to-blue-500">
+                  <Card className="bg-linear-to-r from-cyan-500 to-blue-500">
                     <CardContent className="flex items-center justify-center flex-col p-4 gap-1">
                       <a href={el.homepage} target="_blank" rel="noreferrer" className="text-xl break-all">{el.homepage}</a>
                       <ul className="flex flex-wrap gap-2">

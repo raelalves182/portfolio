@@ -17,13 +17,13 @@ const Header = () => {
             </Link>
 
             <button onClick={() => setNavOpen(!navOpen)}
-              className="text-white cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block sm:hidden outline-none focus:outline-none"
+              className="text-white cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded-sm bg-transparent block sm:hidden outline-hidden focus:outline-hidden"
             >
               <List size={32} />
             </button>
           </div>
 
-          <div className={"sm:flex flex-grow items-center" + (navOpen ? " flex" : " hidden")} >
+          <div className={"sm:flex grow items-center" + (navOpen ? " flex" : " hidden")} >
             <ul className="flex flex-col sm:flex-row sm:ml-auto sm:gap-6" id="navbar-default">
               <li>
                 <Link className="py-2 px-3 flex items-center text-white text-xs uppercase hover:opacity-75" title="github" href="https://github.com/raelalves182" target="_blank">
