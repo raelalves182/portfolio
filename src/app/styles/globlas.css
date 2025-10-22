@@ -1,4 +1,4 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 
 @plugin 'tailwindcss-animate';
 
@@ -16,7 +16,7 @@
 }
 
 @theme {
-  --background-image-hero-pattern: url('/image.jpg');
+  --background-image-hero-pattern: url("/image.jpg");
 
   --shadow-3xl: 0 35px 60px -15px rgba(0, 0, 0, 0.3);
 
@@ -61,10 +61,6 @@
   }
 }
 
-.card {
-  position: absolute;
-  background-image: url(/image.jpg);
-  background-position-y: top;
-  background-position-x: 600px;
-  background-repeat: no-repeat;
+body {
+  overflow-x: hidden;
 }
