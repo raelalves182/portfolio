@@ -64,3 +64,9 @@
 body {
   overflow-x: hidden;
 }
+
+@media (width <= 400px) {
+  .max-height {
+    height: 310px;
+  }
+}

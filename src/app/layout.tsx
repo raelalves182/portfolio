@@ -29,7 +29,7 @@ export default function RootLayout({
   return (
     <html lang="pt-br" className={josefin_sans.className}>
       <Head />
-      <body>
+      <body cz-shortcut-listen="true">
         <Header />
         {children}
       </body>
