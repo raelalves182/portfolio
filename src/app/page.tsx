@@ -19,6 +19,7 @@ export default function Home() {
                   height={1184}
                   alt="Picture of the author"
                   className='rounded-[240px] object-cover object-center w-full h-full hover:scale-105 transition-transform duration-300'
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   fetchPriority="high"
                   loading="eager"
                 />
